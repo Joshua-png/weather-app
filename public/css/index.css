@@ -1,0 +1,56 @@
+body{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto; /*first top and bottom second left and right*/
+    padding: 0 16px;
+    max-width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 48px;
+    padding: 16px 0;  
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+ 
+header a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;   
+}
+
+.about-image{
+    height: 100%;
+    width: 100%;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
