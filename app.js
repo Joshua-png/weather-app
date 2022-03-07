@@ -5,7 +5,8 @@ const request = require('request');
 
 const app = express();
 
-const port = 4000;
+//const port = 4000;
+const port = process.env.PORT || 4000;
 
 const viewsPath = path.join(__dirname, '/template/views');
 const partialsPath = path.join(__dirname, '/template/partials');

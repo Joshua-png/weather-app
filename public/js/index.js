@@ -11,7 +11,7 @@ formSelector.addEventListener('submit', (event) => {
   event.preventDefault()
 
   const address = search.value;
-  const url = `http://localhost:4000/weather?address=${address}`;
+  const url = `/weather?address=${address}`;
 
   messageOne.textContent = 'Loading...';
   messageTwo.textContent = '';
