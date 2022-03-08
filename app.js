@@ -1,4 +1,7 @@
 // published url https://controversial-weather-app.herokuapp.com/
+// npm run dev
+// https://weatherstack.com/dashboard
+// https://docs.mapbox.com/api/search/geocoding/
 
 const express = require('express');
 const path = require('path');
